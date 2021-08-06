@@ -1,0 +1,559 @@
+@charset "utf-8";
+/* CSS Document */
+.all
+{
+	width: 100%;
+	height:6010px;
+	background-color:lightblue;
+	margin: auto;
+}
+.login
+{
+	width: 100%;
+	height:30px;
+	background-color:#2E2E2E;
+}
+.menu
+{
+	width: 100%;
+	height:60px;
+	background-color:maroon;
+}
+.logo
+{
+	width: 10%;
+	height:60px;
+	float:left;
+ }
+
+.congcu ul
+{
+	width: 50%;
+	height:60px;
+	background-color:maroon;
+	float:right;
+	list-style: none;
+    
+	margin: 0;
+    padding: 0;
+}
+.congcu ul li
+{
+	float:left;
+	padding: 20px;
+	position:relative;
+    width: 120px;
+    text-align: center;
+    
+}
+.congcu ul li a
+{
+	color:aliceblue;
+	font-family: Helvetica, Arial, "sans-serif";
+    font-weight:500;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+.congcu ul li:hover
+{
+	background-color:firebrick;
+}
+.congcu ul li ul
+{
+	position:absolute;
+	top: 60px;
+	left: -0px;
+	visibility: hidden;
+}
+.congcu ul li ul li
+{
+	width: 180px;
+	background-color:maroon;
+	text-align: left;
+	
+}
+.congcu ul li:hover ul
+{
+	visibility: visible;
+}
+
+.header
+{
+	width: 100%;
+	height:800px;
+	background-color:antiquewhite;
+	justify-content: center;
+}
+.video
+{
+    text-align: center;
+    padding-top: 70px;
+}
+#header-content
+{
+	background-image: url("../../Bai tap/css/header-faye.jpg");
+	width: 100%;
+	height: 800px;
+	background-repeat:no-repeat;
+	background-size: auto;
+	
+}
+.button-play
+{
+	width: 550px;
+	height: 90px;
+	background-color:#FE642E;
+	color:aliceblue;
+	text-align: center;
+	padding-top: 15px;
+	margin: 0 auto;
+	
+}
+.button-play a
+{
+	text-decoration: none;
+	color:aliceblue;
+    font-family: Helvetica, Arial, "sans-serif" 
+}
+.store-button
+{ 
+	text-align: center;
+	
+}
+.store-button-pc
+{ 
+	width: 170px;
+	margin: 5px;
+}
+.store-button-ios
+{
+	width: 150px;margin: 5px;
+}
+.logo-intro
+{
+    background-color:#151515;
+    width: 340px;
+    height: 150px;
+    float:left;
+    margin: 0% 10px;
+    text-align: center;
+}
+.logo-intro-img
+{
+    width:200px; 
+    padding: 5px;
+}
+.logo-intro-text
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 14px;
+    color:aliceblue;
+    line-height: 19px;
+    margin: 0px 0px 10px 10px;
+}
+.features
+{
+	width: 100%;
+	height:150px;
+	background-color: #151515;
+    display:flex;
+    justify-content: center;
+}
+.story
+{
+    width:100%;
+    height:3000px;
+    background-color:maroon;
+}
+.story-body
+{
+    width: 610px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.story-body-title
+{
+   width: 610px;
+    height: 50px;
+    
+}
+.story-number
+{
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid orange;
+    color: orange;
+  
+}
+.story-title
+{
+    color:orange;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size:16px;
+    line-height: 1.5;
+    
+}
+.story-body-headline
+{
+   width: 610px;
+    height: 400px;
+
+}
+.story-headline
+{
+	width: 100%;
+	height:60px;
+    text-align:left;
+    color:burlywood;
+    font-family: Helvetica, Arial, "sans-serif";
+   font-size:48px;
+
+}
+.story-01
+{
+    width:100%;
+    height:600px;
+    background-image: url("../../Bai tap/css/Open-World-PvP.jpg");
+}
+.story-02
+{
+    width:100%;
+    height:600px;
+    background-image: url("../../Bai tap/css/feature-visual--farming.jpg");
+    background-position:center;
+}
+.story-03
+{
+    width:100%;
+    height:600px;
+    background-image: url("../../Bai tap/css/feature-visual--real-estate.jpg");
+    
+}
+.story-04
+{
+    width:100%;
+    height:600px;
+    background-image: url("../../Bai tap/css/feature-visual--destiny.jpg");
+    background-position:center;
+}
+.story-05
+{
+    width:100%;
+    height:600px;
+    background-image: url("../../Bai tap/css/feature-visual--demon.jpg");
+    background-position:center;
+}
+.background-left
+{
+    width: 50%;
+    height: 600px;
+    float:left;
+    
+}
+.background-left-img
+{
+    width: 45%;
+    display:block;
+    margin: 6% 7%;
+        
+}
+        
+    
+.transbox-right
+{
+    width:50%;
+    height:600px;
+    float:right;
+    background: rgba(21,21,21, 0.5);
+}
+.transbox-left
+{
+    width:50%;
+    height:600px;
+    float:left;
+    background: rgba(21,21,21, 0.5);
+}
+.platform
+{
+	width: 100%;
+	height:870px;
+    
+}
+.platform-bg
+{
+	width: 100%;
+	height:870px;
+	background-image: url("../../Bai tap/css/cross-platform_bg.jpg") ;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    
+}
+.platform-bg-link
+{
+	width:auto;
+	
+}
+.platform img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.platform-title
+{
+	width: 100%;
+	height:60px;
+    text-align: center;
+    color: #ffd972;
+    font-family: Helvetica, Arial, "sans-serif";
+   font-size:55px;
+    box-sizing: border-box;
+}
+.platform-text-body
+{
+     width: 520px;
+    color:antiquewhite;
+    font-family: Helvetica, Arial, "sans-serif";
+    text-align:center;
+    font-size:16px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.platform-text-body-link
+{
+    width: 520px;
+	height:30px;
+    color:antiquewhite;
+    text-align:center;
+    font-size:18px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.platform-text-body-link a
+{
+    color:#ffd972;
+}
+.platform-text-body-link a:hover
+{
+    color:crimson;
+}
+.news
+{
+    width:100%;
+    height:800px;
+    background-image:url("../../Bai tap/css/news_bg.jpg");
+    display:block;
+    
+}
+.news-body
+{
+    width:1150px;
+    height:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.news-body-title
+{
+    width:1150px;
+    height:175px;
+    
+    
+}
+
+.news-body-title-h1
+{
+
+    color:aliceblue;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 50px;
+    line-height: 45px;
+    
+}
+.news-body-title-h2
+{
+    color:#FE9A2E;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size:18px;
+    
+    
+}
+.news-body-content
+{
+    width:1150px;
+    height: 600px;
+    
+}
+.news-body-content-01
+{
+    width:355px;
+    height: 500px;
+    float: left;
+    margin-right:27px;
+}
+.news-body-content-02
+{
+    width:350px;
+    height: 500px;
+    float: left;
+    margin-left:0px;
+}
+.news-body-content-01 img
+{
+    width:355px;
+    
+}
+.news-body-content-02 img
+{
+    width:355px;
+    
+}
+.new-date
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 16px;
+    color:#FE9A2E;
+    padding-top:-20px;
+    
+    
+}
+.new-title
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 28px;
+    color:#FE9A2E;
+    line-height: 40px;
+    margin-top: -10px
+    
+}
+.news-body-content-01 a
+{
+    text-decoration: none;
+}
+.news-body-content-02 a
+{
+    text-decoration: none;
+}
+.new-text-body
+{
+    color:antiquewhite;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size:16px;
+    line-height: 1.5;
+    margin-top:-25px
+}
+.new-text-body-link
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    color:firebrick;
+    font-size:16px;
+    line-height: 1.5;
+    
+}
+.new-text-body-link a
+{
+    color:#ffd972;
+}
+.new-text-body-link a:hover
+{
+    color:red;
+}
+.adventure
+{
+    width:100%;
+    height: 800px;
+    background-image: url("../../Bai tap/css/adventure-awaits_bg.jpg") ;
+    background-position: center bottom;
+    background-repeat:no-repeat;
+}
+.adventure img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -50px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(10,40,55,1.00);
+}
+.footer-body
+{
+    width: 1150px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer-body-about
+{
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin-right: 27px;
+    
+}
+.footer-body-company
+{
+    width: 200px;
+    height: 180px;
+    float: left;
+    margin-left: 0px;
+}
+.footer-body-icon
+{
+    width: 250px;
+    height: 180px;
+    float: right;
+    margin-left: 0px;
+
+}
+.footer-body-icon img
+.footer-contact
+{
+    width: 1150px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:aqua;
+}
+.footer-body-contact-text p
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size:11px;
+    line-height: 2 ;
+    margin-top: 10px;
+    
+}
+.footer-headline
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    color: rgba(26,107,147,1.00);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer-body-text
+{
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size:11px;
+    line-height: 2 ;
+    margin-top: 10px;
+    
+}
+.footer-body-text a
+{
+    text-decoration: none;
+    color:rgba(26,107,147,1.00)
+}
